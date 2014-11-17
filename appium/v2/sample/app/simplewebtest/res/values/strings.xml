@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">simplewebtest</string>
+
+    <string name="default_open_url">google.co.jp</string>
+    <string name="search_button_label">jump!</string>
+    <string name="setting_button_label">Start Setting</string>
+    <string name="list_button_label">List</string>
+
+    <string name="list_header_label">ListActivity</string>
+    <string name="web_header_label">WebActivity</string>
+</resources>

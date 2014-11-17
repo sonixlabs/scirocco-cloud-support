@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          android:versionCode="1"
+          android:versionName="1.0"
+          package="com.example.simplewebtest">
+<uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19"/>
+<uses-permission android:name="android.permission.INTERNET"/>
+<application android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:allowBackup="true" android:theme="@android:style/Theme.Light">
+    <activity android:name=".MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent-filter>
+    </activity>
+
+    <activity android:name=".ListActivity" android:label="@string/list_header_label"/>
+    <activity android:name=".WebActivity" android:label="@string/web_header_label"/>
+</application>
+</manifest>
